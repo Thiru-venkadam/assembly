@@ -1,11 +1,14 @@
 # x86_64 Assembly
 Here, I used Windows subsystem for linux and Netwide Assembler to write code on x86_64 processor architecture
 
-## To create an object file from an asm file:
+## 1) To create an object file from an asm file:
         nasm -f elf64 -o program.o program
 
-## To create the executable file from an object file:
+## 2) To create the executable file from an object file:
+### a) With linker
         ld -o program program.o
+### b) With GCC
+        gcc -no-pie program.o -o program
 
-## To run the executable file:
+## 3)To run the executable file:
         ./program
