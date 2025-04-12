@@ -1,4 +1,4 @@
-# x86 Assembly
+# x86-64 Assembly
 Here, I used Windows subsystem for linux and Netwide Assembler to write code on x86-64 processor architecture
 
 ## 1) To create an object file from an asm file:
