@@ -1,5 +1,5 @@
-# x86_64 Assembly
-Here, I used Windows subsystem for linux and Netwide Assembler to write code on x86_64 processor architecture
+# x86 Assembly
+Here, I used Windows subsystem for linux and Netwide Assembler to write code on x86-32 & x86-64 processor architecture
 
 ## 1) To create an object file from an asm file:
         nasm -f elf64 -o program.o program
