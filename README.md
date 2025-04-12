@@ -12,3 +12,6 @@ Here, I used Windows subsystem for linux and Netwide Assembler to write code on 
 
 ## 3)To run the executable file:
         ./program
+
+## 4)To check the exit code:
+        echo $?
